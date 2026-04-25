@@ -1,0 +1,13 @@
+[package]
+name = "gehirn-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "gehirn-kernel"
+path = "src/main.rs"
+
+[dependencies]
+# Crate oficial do protocolo Limine — fornece as structs que o
+# bootloader preenche e passa para o kernel (framebuffer, memory map, etc.)
+limine = "0.6.3"

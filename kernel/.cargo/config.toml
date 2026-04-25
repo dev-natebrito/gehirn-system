@@ -1,0 +1,8 @@
+# .cargo/config.toml
+#
+# Intentionally minimal — all unstable flags are passed explicitly
+# via build.sh to avoid ordering issues with -Z json-target-spec.
+# This file only sets the default target path for manual cargo invocations.
+
+[build]
+target = "../../targets/x86_64-gehirn.json"

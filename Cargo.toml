@@ -1,0 +1,12 @@
+# Cargo.toml (raiz — workspace)
+# Não contém código. Só declara os crates do projeto.
+# No futuro: userspace/ e tools/ entram aqui como novos membros.
+[workspace]
+members = ["kernel"]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
