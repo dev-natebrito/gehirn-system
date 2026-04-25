@@ -2,3 +2,5 @@
 **/*.rs.bk
 Cargo.lock
 .env
+gehirn.iso
+/iso_root
